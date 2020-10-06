@@ -19,11 +19,8 @@
 .hero__title {
   margin-top: 0px;
   margin-bottom: 30px;
-
   color: $white-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font(44px, 1.36, 900);
 }
 
 .hero__button {

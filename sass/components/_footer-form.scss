@@ -3,9 +3,7 @@
 }
 
 .form-area__text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14, 700);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $white-color;
@@ -30,17 +28,13 @@
   background-color: $footer-background-color;
 
   font-family: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  @include font(16px, 1.25);
   letter-spacing: 0.03em;
   color: $link-footer-color;
 
   &::placeholder {
     font-family: inherit;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    @include font(16px, 1.25);
     letter-spacing: 0.03em;
     color: $link-footer-color;
   }

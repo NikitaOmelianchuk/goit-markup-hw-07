@@ -10,9 +10,7 @@
   margin-top: 0;
   margin-bottom: 50px;
 
-  font-style: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(36px, 1.17, 700);
   color: $title-text-color;
 }
 

@@ -14,9 +14,7 @@
 .modal-form__name {
   margin-bottom: 4px;
   font-family: inherit;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
+  @include font(12px, 1.17);
   letter-spacing: 0.01em;
   color: $main-text-color;
 }
@@ -67,9 +65,7 @@
 
   &::placeholder {
     font-family: inherit;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
+    @include font(12px, 1.17);
     letter-spacing: 0.01em;
     color: $placeholder-color;
   }
@@ -82,8 +78,7 @@
 }
 
 .modal-form__checkbox-label {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 1.71);
   letter-spacing: 0.03em;
   color: $main-text-color;
 }
@@ -120,5 +115,5 @@
 }
 
 .modal-form__button {
-  padding: 10px 55px 10px 56px;
+  padding: 10px 40px 10px 56px;
 }

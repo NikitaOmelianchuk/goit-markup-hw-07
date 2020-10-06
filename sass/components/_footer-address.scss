@@ -2,9 +2,8 @@
   margin-top: 20px;
   font-family: inherit;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+
+  @include font(14px, 1.7);
   letter-spacing: 0.03em;
 }
 

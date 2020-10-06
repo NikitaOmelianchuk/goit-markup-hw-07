@@ -42,11 +42,7 @@
   margin-bottom: 0px;
 
   color: $title-text-color;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  @include font(18px, 2, 700);
   text-decoration: none;
 }
 
@@ -55,11 +51,7 @@
   margin-bottom: 0px;
 
   color: $main-text-color;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
+  @include font(16px, 1.9);
   text-decoration: none;
 }
 
@@ -86,10 +78,7 @@
 }
 
 .examples-cover__text {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
+  @include font(18px, 1.56);
   letter-spacing: 0.03em;
   color: $white-color;
   margin: 0;

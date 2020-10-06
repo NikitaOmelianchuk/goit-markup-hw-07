@@ -1,6 +1,7 @@
-@import './utils/normalize';
 @import './utils/variables';
-@import './utils/commons';
+@import './utils/mixin';
+@import './base/normalize';
+@import './base/commons';
 @import './components/header';
 @import './components/logo';
 @import './components/navigate';
